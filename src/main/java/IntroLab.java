@@ -37,10 +37,13 @@ public class IntroLab {
      *       The method should be named with your utorID and should call
      *       printLabMessage with some parameters.
      *
+     *
      * As a reference, we've provided the sample method exampleStudent.
      * Make sure you document your method properly!
      */
-
+    public static String khazanah() {
+        return printLabMessage("hello")
+    }
     /**
      * An example method that calls on printLabMessage.
      */
@@ -59,6 +62,7 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
+        System.out.println(khazanah());
 
 
     }
